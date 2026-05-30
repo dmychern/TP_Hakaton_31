@@ -46,6 +46,7 @@ if [ ! -d "project/data/Spam" ]; then
 fi
 
 mkdir -p project/data/logs
+python src/__main__.py >> project/data/logs/run.log 2>&1
 
 python src/__main__.py
 echo "Приложение почты запущено успешно"
