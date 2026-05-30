@@ -1,4 +1,3 @@
-
 class EmailMessage:
     def __init__(self, filename: str, suject: str, body: str):
         self.filename = filename
