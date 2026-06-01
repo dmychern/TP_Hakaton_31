@@ -1,6 +1,8 @@
 from __future__ import annotations
 import logging
 import argparse
+import shutil
+import json
 from pathlib import Path
 from src.classifier import RuleBasedClassifier
 
@@ -16,11 +18,23 @@ def build_parser() -> argparse.ArgumentParser:
 
     return parser
 
-def main(argv: list[str] | None = None) -> int:
-    args = build_parser().parse_args()
+class Message:
+    def __init__(self, filename: str, text: str):
+        self.filename = filename
+        self.text = text
 
+    def get_full_text(self) -> str:
+        return self.text
+
+def main(argv: list[str] | None = None) -> int:
+    args = build_parser().parse_args(argv)
+
+    inbox_dir = Path(args.inbox)
+    output_dir = Path(args.out)
+    reports_dir = Path(args.reports)
     log_path = Path(args.log_file)
     log_path.parent.mkdir(parents=True, exist_ok=True)
+
     logging.basicConfig(
         filename=log_path,
         level=logging.INFO,
@@ -31,30 +45,64 @@ def main(argv: list[str] | None = None) -> int:
     logger = logging.getLogger("Main")
     logger.info("Запуск приложения")
 
+    if not inbox_dir.exists():
+        return 1
     try:
         classifier = RuleBasedClassifier(Path(args.config))
-        from src.processor import MailProcessor
 
-        processor = MailProcessor(
-            inbox_dir=Path(args.inbox),
-            outbox_dir=Path(args.out),
-            classifier=classifier,
-            report_dir=Path(args.reports),
-            copy_dir=Path(args.copy),
-            dry_run=args.dry_run
-        )
+        file_path = [f for f in inbox_dir.iterdir() if f.is_file()]
 
         logger.info("Обработка писем")
 
-        res = processor.process()
-        errors = sum(1 for r in res if getattr(r, 'error', None))
+        messages = []
+        file_map = {}
 
-        logger.info(f"Обработка писем завершена. Писем обработано: {len(res)}, ошибок: {errors}")
+        for path in file_path:
+            try:
+                with open(path, "r", encoding="utf-8", errors="replace") as f:
+                    content = f.read()
+                msj = Message(filename=path.name, text=content)
+                messages.append(msj)
+                file_map[path.name] = path
+            except Exception as e:
+                logger.error(f"Ошибка чтения")
+
+        res = classifier.classify(messages)
+        stats = {"total" : len(res), "distribution": {}}
+        errors_cnt = 0
+
+        for r in res:
+            stats["distribution"][r.category] = stats["distribution"].get(r.category, 0) + 1
+            if r.category == "empty" or r.category == "unknown":
+                errors_cnt += 1
+
+        for i, r in enumerate(res):
+            cur_message = messages[i]
+            filename = cur_message.filename
+            source_text = file_map[filename]
+
+            if not args.dry_run:
+                target_dir = output_dir / r.folder
+                target_dir.mkdir(parents=True, exist_ok=True)
+                target_path = target_dir / filename
+
+                if args.copy:
+                    shutil.copy(str(source_text), str(target_path))
+                else:
+                    shutil.move(str(source_text), str(target_path))
+
+        reports_dir.mkdir(parents=True, exist_ok=True)
+        with open(reports_dir / "reports.json", "w", encoding="utf-8") as f:
+            json.dump(stats, f, ensure_ascii=False, indent=4)
+
+
+        logger.info(f"Обработка писем завершена. Писем обработано: {len(res)}, ошибок: {errors_cnt}")
 
         print(f"\nОбработано файлов: {len(res)} ")
-        print(f"Возникло ошибок: {errors}")
-        print(f"Папка с отчетами: {Path(args.reports).resolve()}")
+        print(f"Возникло ошибок: {errors_cnt}")
+        print(f"Папка с отчетами: {reports_dir.resolve()}")
         return 0
+
     except Exception as e:
         return 1
 
