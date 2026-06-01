@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 from typing import List
 
-from .models import EmailMessage, ClassificationResult
+from .reader import EmailMessage, ClassificationResult
 
 logger = logging.getLogger(__name__)
 
