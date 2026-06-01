@@ -12,12 +12,12 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--reports", default="reports", help="Отчеты")
     parser.add_argument("--log-file", default="logs/app.log", help="Журнал приложения")
     parser.add_argument("--copy", action="store_true", help="Копировать вместо перемещения")
-    parser.add_argument("--dry-run", default="store_true", help="Классификация и отчеты без изменения файлов")
+    parser.add_argument("--dry-run", action="store_true", help="Классификация и отчеты без изменения файлов")
 
     return parser
 
 def main(argv: list[str] | None = None) -> int:
-    args = build_parser().parce_args()
+    args = build_parser().parse_args()
     try:
         classifier = RuleBasedClassifier(Path(args.config))
         processor = MailProcessor(
