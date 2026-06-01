@@ -2,7 +2,7 @@ from __future__ import annotations
 import logging
 import argparse
 from pathlib import Path
-from src.classifer import RuleBasedClassifier
+from src.classifier import RuleBasedClassifier
 from src.processor import MailProcessor
 
 def build_parser() -> argparse.ArgumentParser:
