@@ -22,7 +22,13 @@ class RuleBasedClassifier:
             )
             self.rules.append(rule)
         self.rules.sort(key=lambda rule: rule.priority, reverse=True)
-    def classify(self, message):
+    def classify(self, messages):
+        results = []
+        for message in messages:
+            result = self.classify_one(message)
+            results.append(result)
+        return results
+    def classify_one(self, message):
         text = self.prepare_text(message.text_for_classification)
         if text.strip() == "":
             return ClassificationResult(
