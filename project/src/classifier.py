@@ -29,7 +29,8 @@ class RuleBasedClassifier:
             results.append(result)
         return results
     def classify_one(self, message):
-        text = self.prepare_text(message.text_for_classification)
+        text = message.get_full_text()
+        text = self.prepare_text(text)
         if text.strip() == "":
             return ClassificationResult(
                 category="empty",
