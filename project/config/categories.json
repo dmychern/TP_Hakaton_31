@@ -4,7 +4,7 @@
   "categories": [
     {
       "name": "client_support",
-      "folder": "urgent/client_support",
+      "folder": "Important/client_suppot",
       "description": "Срочные обращения клиентов",
       "priority": 10,
       "keywords": [
@@ -23,7 +23,7 @@
     },
     {
       "name": "tech_support",
-      "folder": "urgent/tech_support",
+      "folder": "Important/tech_support",
       "description": "Срочные технические проблемы системы",
       "priority": 10,
       "keywords": [
@@ -41,8 +41,8 @@
       "patterns": []
     },
     {
-      "name": "spam",
-      "folder": "spam",
+      "name": "Spam",
+      "folder": "Spam",
       "description": "Спам и рекламные письма",
       "priority": 1,
       "keywords": [
@@ -59,8 +59,8 @@
       "patterns": []
     },
     {
-      "name": "newsletter",
-      "folder": "newsletter",
+      "name": "Newsletter",
+      "folder": "Newsletter",
       "description": "Рассылки и новости",
       "priority": 2,
       "keywords": [
@@ -76,8 +76,8 @@
       "patterns": []
     },
     {
-      "name": "documents",
-      "folder": "documents",
+      "name": "Documentary",
+      "folder": "Documentary",
       "description": "Документы и файлы",
       "priority": 6,
       "keywords": [
@@ -94,8 +94,8 @@
       "patterns": []
     },
     {
-      "name": "communication",
-      "folder": "communication",
+      "name": "Communication",
+      "folder": "Communication",
       "description": "Внутренняя коммуникация",
       "priority": 3,
       "keywords": [
@@ -112,8 +112,8 @@
       "patterns": []
     },
     {
-      "name": "service",
-      "folder": "service",
+      "name": "Service",
+      "folder": "Service",
       "description": "Сервисные запросы",
       "priority": 5,
       "keywords": [
