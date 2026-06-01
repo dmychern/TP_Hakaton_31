@@ -1,47 +1,57 @@
 echo "Запуск приложения почты"
 
+if command -v py &> /dev/null; then
+  PYTHON_CMD="py"
+elif command -v python3 &> /dev/null; then
+  PYTHON_CMD="python3"
+fi
+
 if [ ! -d "inbox" ]; then
-  echo "Ошибка: Директория 'inbox' не найдена. Невозможно запустить приложение."
-  exit 1
+  echo "Предупреждение: Директория 'inbox' не найдена, папка добавлена автоматически"
+  mkdir -p inbox
 fi
 
 if [ ! -d "data" ]; then
-  echo "Ошибка: Директория 'data' не найдена. Невозможно запустить приложение."
-  exit 1
+  echo "Предупреждение: Директория 'data' не найдена, папка добавлена автоматически"
+  mkdir -p data
+fi
+
+if [ ! -d "data/logs" ]; then
+  mkdir -p data/logs
 fi
 
 if [ ! -d "data/Important" ]; then
-  echo "Ошибка: Директория 'Important' не найдена. Невозможно запустить приложение."
-  exit 1
+  echo "Предупреждение: Директория 'Important' не найдена, папка добавлена автоматически"
+  mkdir -p data/Important
 fi
 
 if [ ! -d "data/Important/client_supprot" ]; then
-  echo "Ошибка: Директория 'client_support' не найдена в директории 'Important'. Невозможно запустить приложение."
-  exit 1
+  echo "Предупреждение: Директория 'client_support' не найдена, папка добавлена автоматически"
+  mkdir -p data/Important/client_supprot
 fi
 
 if [ ! -d "data/Important/tech_support" ]; then
-  echo "Ошибка: Директория 'tech_support' не найдена в директории 'Important'. Невозможно запустить приложение."
-  exit 1
+  echo "Предупреждение: Директория 'tech_support' не найдена, папка добавлена автоматически"
+  mkdir -p data/Important/tech_support
 fi
 
 if [ ! -d "data/Newsletter" ]; then
-  echo "Ошибка: Директория 'Newsletter' не найдена в директории 'data'. Невозможно запустить приложение."
-  exit 1
+  echo "Предупреждение: Директория 'Newsletter' не найдена, папка добавлена автоматически"
+  mkdir -p data/Newsletter
 fi
 
 if [ ! -d "data/Service" ]; then
-  echo "Ошибка: Директория 'Service' не найдена в директории 'data'. Невозможно запустить приложение."
-  exit 1
+  echo "Предупреждение: Директория 'Service' не найдена, папка добавлена автоматически"
+  mkdir -p data/Service
 fi
 
 if [ ! -d "data/Spam" ]; then
-  echo "Ошибка: Директория 'Spam' не найдена в директории 'data'. Невозможно запустить приложение."
-  exit 1
+  echo "Предупреждение: Директория 'Spam' не найдена, папка добавлена автоматически"
+  mkdir -p data/Spam
 fi
 
-mkdir -p data/logs
-py -u src/__main__.py >> data/logs/run.log 2>&1
-py src/__main__.py
+$PYTHON_CMD -m pytest project/tests/ -v || { echo "Приложение не прошло тестирование, запуск не возможен"; exit 1; }
+
+$PYTHON_CMD -u -m src.__main__ 2>&1 | tee data/logs/run.log
 
 echo "Приложение почты запущено успешно"
