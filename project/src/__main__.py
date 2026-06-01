@@ -3,7 +3,6 @@ import logging
 import argparse
 from pathlib import Path
 from src.classifier import RuleBasedClassifier
-from src.processor import MailProcessor
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description='Система обработки корпоративной почты')
@@ -34,6 +33,8 @@ def main(argv: list[str] | None = None) -> int:
 
     try:
         classifier = RuleBasedClassifier(Path(args.config))
+        from src.processor import MailProcessor
+
         processor = MailProcessor(
             inbox_dir=Path(args.inbox),
             outbox_dir=Path(args.out),
