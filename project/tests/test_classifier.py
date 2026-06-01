@@ -1,7 +1,7 @@
 import pytest
 import json
 from src.classifier import RuleBasedClassifier
-from src.models import EmailMessage
+from src.reader import EmailMessage
 
 @pytest.fixture
 def temporary_config(tmp_path):

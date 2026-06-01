@@ -1,5 +1,5 @@
 import pytest
-from src.models import EmailMessage
+from src.reader import EmailMessage
 
 @pytest.fixture
 def message_example():

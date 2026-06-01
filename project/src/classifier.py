@@ -1,7 +1,7 @@
 import json
 import logging
 import re
-from .models import CategoryRule, ClassificationResult
+from .reader import CategoryRule, ClassificationResult
 
 logger = logging.getLogger(__name__)
 
