@@ -1,6 +1,10 @@
 import json
+import logging
 import re
 from .models import CategoryRule, ClassificationResult
+
+logger = logging.getLogger(__name__)
+
 class RuleBasedClassifier:
     def __init__(self, config_path):
         self.rules = []
@@ -8,6 +12,7 @@ class RuleBasedClassifier:
         self.empty_folder = "empty"
         self.load_rules(config_path)
     def load_rules(self, config_path):
+        logger.info(f"Загрузка правил классификации из {config_path}")
         data = json.loads(open(config_path, encoding="utf-8").read())
         self.unknown_folder = data.get("unknown_folder", "unknown")
         self.empty_folder = data.get("empty_folder", "empty")
@@ -22,16 +27,20 @@ class RuleBasedClassifier:
             )
             self.rules.append(rule)
         self.rules.sort(key=lambda rule: rule.priority, reverse=True)
+        logger.info(f"Задано категорий: {len(self.rules)}")
     def classify(self, messages):
+        logger.info(f"Начало классификации сообщений")
         results = []
         for message in messages:
             result = self.classify_one(message)
             results.append(result)
         return results
     def classify_one(self, message):
+        msg = getattr(message, 'filename', 'unknown_msg')
         text = message.get_full_text()
         text = self.prepare_text(text)
         if text.strip() == "":
+            logger.warning(f"Письмо '{msg}' классифицировано как пустое")
             return ClassificationResult(
                 category="empty",
                 folder=self.empty_folder,
@@ -53,6 +62,7 @@ class RuleBasedClassifier:
                     best_rule = rule
                     best_words = words
         if best_rule is None or best_score == 0:
+            logger.warning(f"Письмо '{msg}' не подошло ни под одно правило. Отправлено в '{self.unknown_folder}'")
             return ClassificationResult(
                 category="unknown",
                 folder=self.unknown_folder,
@@ -60,6 +70,7 @@ class RuleBasedClassifier:
                 matched_terms=[],
                 reason="Категория не найдена."
             )
+        logger.info(f"Письму {msg} присвоена категория '{best_rule.name}'")
         return ClassificationResult(
             category=best_rule.name,
             folder=best_rule.folder,
