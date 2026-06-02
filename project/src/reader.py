@@ -21,11 +21,15 @@ class ClassificationResult:
     reason: str = ""
 
 
+from pathlib import Path
+
 class EmailMessage:
-    def __init__(self, filename: str, subject: str, body: str):
+    def __init__(self, filename: str, subject: str, body: str, path: Path = None, blocked: bool = False):
         self.filename = filename
         self.subject = subject
         self.body = body
+        self.path = path
+        self.blocked = blocked
 
     def get_full_text(self) -> str:
         return f"{self.subject} {self.body}".lower()

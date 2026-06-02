@@ -1,2 +1,1 @@
-pytest==9.0.3
-Git for Windows==2.40.1
+pytest==8.2.1

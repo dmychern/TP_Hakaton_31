@@ -5,6 +5,7 @@ import shutil
 import json
 from pathlib import Path
 from src.classifier import RuleBasedClassifier
+from src.processor import MailProcessor
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description='Система обработки корпоративной почты')
@@ -38,10 +39,11 @@ def main(argv: list[str] | None = None) -> int:
         classifier = RuleBasedClassifier(Path(args.config))
 
         processor = MailProcessor(
+            inbox_dir=args.inbox,
+            outbox_dir=args.out,
             classifier=classifier,
-            output_dir=args.out,
             report_dir=args.reports,
-            copy_mode=args.copy,
+            copy_dir=args.copy,
             dry_run=args.dry_run
         )
 
@@ -52,7 +54,7 @@ def main(argv: list[str] | None = None) -> int:
         elif hasattr(processor, "process_directory"):
             processor.process_directory(inbox_path)
         else:
-            processor.process(inbox_path)
+            processor.process()
 
         print("\nОбработка писем завершена")
         return 0

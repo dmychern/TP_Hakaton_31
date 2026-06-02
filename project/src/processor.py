@@ -129,11 +129,12 @@ class MailProcessor:
 
     def _write_report(self, messages, results) -> None:
         self.report_dir.mkdir(parents=True, exist_ok=True)
-        report_path = self.report_dir / "report.json"
+        report_path = self.report_dir / "reports.json"
 
-        rows = []
+        items = []
+        distribution = {}
         for msg, res in zip(messages, results):
-            rows.append({
+            items.append({
                 "file": msg.filename,
                 "category": res.category,
                 "folder": res.folder,
@@ -142,9 +143,16 @@ class MailProcessor:
                 "reason": res.reason,
                 "error": getattr(res, "error", None),
             })
+            distribution[res.category] = distribution.get(res.category, 0) + 1
+
+        report = {
+            "total": len(items),
+            "distribution": distribution,
+            "items": items
+        }
 
         report_path.write_text(
-            json.dumps(rows, ensure_ascii=False, indent=2),
+            json.dumps(report, ensure_ascii=False, indent=2),
             encoding="utf-8"
         )
         logger.info(f"Отчёт сохранён: {report_path}")

@@ -25,9 +25,9 @@ if [ ! -d "data/Important" ]; then
   mkdir -p data/Important
 fi
 
-if [ ! -d "data/Important/client_supprot" ]; then
+if [ ! -d "data/Important/client_support" ]; then
   echo "Предупреждение: Директория 'client_support' не найдена, папка добавлена автоматически"
-  mkdir -p data/Important/client_supprot
+  mkdir -p data/Important/client_support
 fi
 
 if [ ! -d "data/Important/tech_support" ]; then
@@ -50,8 +50,8 @@ if [ ! -d "data/Spam" ]; then
   mkdir -p data/Spam
 fi
 
-$PYTHON_CMD -m pytest project/tests/ -v || { echo "Приложение не прошло тестирование, запуск не возможен"; exit 1; }
+$PYTHON_CMD -m pytest tests/ -v || { echo "Приложение не прошло тестирование, запуск не возможен"; exit 1; }
 
-$PYTHON_CMD -u -m src.__main__ 2>&1 | tee data/logs/run.log
+$PYTHON_CMD -u -m src.__main__ --inbox inbox --out data 2>&1 | tee data/logs/run.log
 
 echo "Приложение почты запущено успешно"
