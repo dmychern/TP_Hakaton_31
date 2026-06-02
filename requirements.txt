@@ -1,1 +1,2 @@
 pytest==9.0.3
+Git for Windows==2.40.1
