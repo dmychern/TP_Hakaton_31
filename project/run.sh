@@ -52,6 +52,6 @@ fi
 
 $PYTHON_CMD -m pytest tests/ -v || { echo "Приложение не прошло тестирование, запуск не возможен"; exit 1; }
 
-$PYTHON_CMD -u -m src.__main__ --inbox inbox --out data 2>&1 | tee data/logs/run.log
+$PYTHON_CMD -u -m src.__main__ --inbox inbox --out data --visualize 2>&1 | tee data/logs/run.log
 
 echo "Приложение почты запущено успешно"

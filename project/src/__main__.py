@@ -6,6 +6,8 @@ import json
 from pathlib import Path
 from src.classifier import RuleBasedClassifier
 from src.processor import MailProcessor
+from src.wizard import run_config_wizard
+from src.visualizer import generate_dashboard
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description='Система обработки корпоративной почты')
@@ -16,6 +18,8 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--log-file", default="data/logs/app.log", help="Журнал приложения")
     parser.add_argument("--copy", action="store_true", help="Копировать вместо перемещения")
     parser.add_argument("--dry-run", action="store_true", help="Классификация и отчеты без изменения файлов")
+    parser.add_argument("--setup", action="store_true", help="Запустить мастер настройки категорий")
+    parser.add_argument("--visualize", action="store_true", help="Сгенерировать дашборд после обработки")
 
     return parser
 
@@ -34,6 +38,10 @@ def main(argv: list[str] | None = None) -> int:
     )
     logger = logging.getLogger("Main")
     logger.info("Запуск приложения")
+
+    if args.setup:
+        run_config_wizard(Path(args.config))
+        return 0
 
     try:
         classifier = RuleBasedClassifier(Path(args.config))
@@ -55,6 +63,11 @@ def main(argv: list[str] | None = None) -> int:
             processor.process_directory(inbox_path)
         else:
             processor.process()
+
+        if args.visualize:
+            report_path = Path(args.reports) / "reports.json"
+            dashboard_path = Path(args.reports) / "dashboard.png"
+            generate_dashboard(report_path, dashboard_path)
 
         print("\nОбработка писем завершена")
         return 0
