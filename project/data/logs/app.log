@@ -1,0 +1,457 @@
+2026-06-02 00:24:56 [INFO] Main: Запуск приложения
+2026-06-02 00:24:56 [INFO] src.classifier: Загрузка правил классификации из config/categories.json
+2026-06-02 00:24:56 [INFO] src.classifier: Задано категорий: 7
+2026-06-02 00:24:56 [WARNING] src.processor: Заблокирован файл: mail_0104.bin — бинарный файл
+2026-06-02 00:24:56 [WARNING] src.processor: Заблокирован файл: mail_0105.json — данные JSON
+2026-06-02 00:24:56 [WARNING] src.processor: Неизвестный формат: mail_0106
+2026-06-02 00:24:56 [WARNING] src.processor: Заблокирован файл: mail_0109.jpeg — изображение JPEG
+2026-06-02 00:24:56 [INFO] src.processor: Прочитано писем: 109
+2026-06-02 00:24:56 [INFO] src.classifier: Начало классификации сообщений
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0001.txt присвоена категория 'tech_support'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0002.txt присвоена категория 'client_support'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0003.txt присвоена категория 'Newsletter'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0004.txt присвоена категория 'client_support'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0005.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0006.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0007.txt присвоена категория 'tech_support'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0008.txt присвоена категория 'Documentary'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0009.txt присвоена категория 'client_support'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0010.txt присвоена категория 'client_support'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0011.txt присвоена категория 'Service'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0012.txt присвоена категория 'client_support'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0013.txt присвоена категория 'Documentary'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0014.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0015.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0016.txt присвоена категория 'tech_support'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0017.txt присвоена категория 'Documentary'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0018.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0019.txt присвоена категория 'Communication'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0020.txt присвоена категория 'tech_support'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0021.txt присвоена категория 'Service'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0022.txt присвоена категория 'Documentary'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0023.txt присвоена категория 'tech_support'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0024.txt присвоена категория 'Documentary'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0025.txt присвоена категория 'Service'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0026.txt присвоена категория 'tech_support'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0027.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0028.txt присвоена категория 'tech_support'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0029.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0030.txt присвоена категория 'Documentary'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0031.txt присвоена категория 'client_support'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0032.txt присвоена категория 'Documentary'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0033.txt присвоена категория 'Service'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0034.txt присвоена категория 'Documentary'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0035.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0036.txt присвоена категория 'Documentary'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0037.txt присвоена категория 'Documentary'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0038.txt присвоена категория 'client_support'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0039.txt присвоена категория 'Communication'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0040.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0041.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0042.txt присвоена категория 'tech_support'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0043.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0044.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0045.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0046.txt присвоена категория 'tech_support'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0047.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0048.txt присвоена категория 'Communication'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0049.txt присвоена категория 'tech_support'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0050.txt присвоена категория 'Communication'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0051.txt присвоена категория 'tech_support'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0052.txt присвоена категория 'tech_support'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0053.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0054.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0055.txt присвоена категория 'client_support'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0056.txt присвоена категория 'Communication'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0057.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0058.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0059.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0060.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0061.txt присвоена категория 'Service'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0062.txt присвоена категория 'Communication'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0063.txt присвоена категория 'Service'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0064.txt присвоена категория 'Spam'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0065.txt присвоена категория 'client_support'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0066.txt присвоена категория 'client_support'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0067.txt присвоена категория 'Communication'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0068.txt присвоена категория 'Documentary'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0069.txt присвоена категория 'Documentary'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0070.txt присвоена категория 'tech_support'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0071.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0072.txt присвоена категория 'Service'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0073.txt присвоена категория 'Service'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0074.txt присвоена категория 'tech_support'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0075.txt присвоена категория 'Communication'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0076.txt присвоена категория 'Service'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0077.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0078.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0079.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0080.txt присвоена категория 'Documentary'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0081.txt присвоена категория 'Documentary'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0082.txt присвоена категория 'client_support'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0083.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0084.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0085.txt присвоена категория 'Service'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0086.txt присвоена категория 'Communication'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0087.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0088.txt присвоена категория 'tech_support'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0089.txt присвоена категория 'Communication'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0090.txt присвоена категория 'Service'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0091.txt присвоена категория 'Communication'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0092.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0093.txt присвоена категория 'Service'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0094.txt присвоена категория 'tech_support'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0095.txt присвоена категория 'Service'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0096.txt присвоена категория 'Communication'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0097.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0098.txt присвоена категория 'Service'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0099.txt присвоена категория 'Service'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0100.txt присвоена категория 'tech_support'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0101.txt присвоена категория 'tech_support'
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0102.txt присвоена категория 'Newsletter'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0103.txt' классифицировано как пустое
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0104.bin' классифицировано как пустое
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0105.json' классифицировано как пустое
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0106' классифицировано как пустое
+2026-06-02 00:24:56 [INFO] src.classifier: Письму mail_0107.txt присвоена категория 'Service'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0108.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:24:56 [WARNING] src.classifier: Письмо 'mail_0109.jpeg' классифицировано как пустое
+2026-06-02 00:24:56 [INFO] src.processor: mail_0001.txt → Important/tech_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0002.txt → Important/client_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0003.txt → Newsletter
+2026-06-02 00:24:56 [INFO] src.processor: mail_0004.txt → Important/client_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0005.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0006.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0007.txt → Important/tech_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0008.txt → Documentary
+2026-06-02 00:24:56 [INFO] src.processor: mail_0009.txt → Important/client_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0010.txt → Important/client_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0011.txt → Service
+2026-06-02 00:24:56 [INFO] src.processor: mail_0012.txt → Important/client_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0013.txt → Documentary
+2026-06-02 00:24:56 [INFO] src.processor: mail_0014.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0015.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0016.txt → Important/tech_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0017.txt → Documentary
+2026-06-02 00:24:56 [INFO] src.processor: mail_0018.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0019.txt → Communication
+2026-06-02 00:24:56 [INFO] src.processor: mail_0020.txt → Important/tech_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0021.txt → Service
+2026-06-02 00:24:56 [INFO] src.processor: mail_0022.txt → Documentary
+2026-06-02 00:24:56 [INFO] src.processor: mail_0023.txt → Important/tech_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0024.txt → Documentary
+2026-06-02 00:24:56 [INFO] src.processor: mail_0025.txt → Service
+2026-06-02 00:24:56 [INFO] src.processor: mail_0026.txt → Important/tech_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0027.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0028.txt → Important/tech_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0029.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0030.txt → Documentary
+2026-06-02 00:24:56 [INFO] src.processor: mail_0031.txt → Important/client_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0032.txt → Documentary
+2026-06-02 00:24:56 [INFO] src.processor: mail_0033.txt → Service
+2026-06-02 00:24:56 [INFO] src.processor: mail_0034.txt → Documentary
+2026-06-02 00:24:56 [INFO] src.processor: mail_0035.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0036.txt → Documentary
+2026-06-02 00:24:56 [INFO] src.processor: mail_0037.txt → Documentary
+2026-06-02 00:24:56 [INFO] src.processor: mail_0038.txt → Important/client_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0039.txt → Communication
+2026-06-02 00:24:56 [INFO] src.processor: mail_0040.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0041.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0042.txt → Important/tech_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0043.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0044.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0045.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0046.txt → Important/tech_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0047.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0048.txt → Communication
+2026-06-02 00:24:56 [INFO] src.processor: mail_0049.txt → Important/tech_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0050.txt → Communication
+2026-06-02 00:24:56 [INFO] src.processor: mail_0051.txt → Important/tech_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0052.txt → Important/tech_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0053.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0054.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0055.txt → Important/client_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0056.txt → Communication
+2026-06-02 00:24:56 [INFO] src.processor: mail_0057.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0058.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0059.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0060.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0061.txt → Service
+2026-06-02 00:24:56 [INFO] src.processor: mail_0062.txt → Communication
+2026-06-02 00:24:56 [INFO] src.processor: mail_0063.txt → Service
+2026-06-02 00:24:56 [INFO] src.processor: mail_0064.txt → Spam
+2026-06-02 00:24:56 [INFO] src.processor: mail_0065.txt → Important/client_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0066.txt → Important/client_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0067.txt → Communication
+2026-06-02 00:24:56 [INFO] src.processor: mail_0068.txt → Documentary
+2026-06-02 00:24:56 [INFO] src.processor: mail_0069.txt → Documentary
+2026-06-02 00:24:56 [INFO] src.processor: mail_0070.txt → Important/tech_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0071.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0072.txt → Service
+2026-06-02 00:24:56 [INFO] src.processor: mail_0073.txt → Service
+2026-06-02 00:24:56 [INFO] src.processor: mail_0074.txt → Important/tech_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0075.txt → Communication
+2026-06-02 00:24:56 [INFO] src.processor: mail_0076.txt → Service
+2026-06-02 00:24:56 [INFO] src.processor: mail_0077.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0078.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0079.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0080.txt → Documentary
+2026-06-02 00:24:56 [INFO] src.processor: mail_0081.txt → Documentary
+2026-06-02 00:24:56 [INFO] src.processor: mail_0082.txt → Important/client_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0083.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0084.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0085.txt → Service
+2026-06-02 00:24:56 [INFO] src.processor: mail_0086.txt → Communication
+2026-06-02 00:24:56 [INFO] src.processor: mail_0087.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0088.txt → Important/tech_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0089.txt → Communication
+2026-06-02 00:24:56 [INFO] src.processor: mail_0090.txt → Service
+2026-06-02 00:24:56 [INFO] src.processor: mail_0091.txt → Communication
+2026-06-02 00:24:56 [INFO] src.processor: mail_0092.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0093.txt → Service
+2026-06-02 00:24:56 [INFO] src.processor: mail_0094.txt → Important/tech_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0095.txt → Service
+2026-06-02 00:24:56 [INFO] src.processor: mail_0096.txt → Communication
+2026-06-02 00:24:56 [INFO] src.processor: mail_0097.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0098.txt → Service
+2026-06-02 00:24:56 [INFO] src.processor: mail_0099.txt → Service
+2026-06-02 00:24:56 [INFO] src.processor: mail_0100.txt → Important/tech_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0101.txt → Important/tech_support
+2026-06-02 00:24:56 [INFO] src.processor: mail_0102.txt → Newsletter
+2026-06-02 00:24:56 [INFO] src.processor: mail_0103.txt → empty
+2026-06-02 00:24:56 [INFO] src.processor: mail_0104.bin → empty
+2026-06-02 00:24:56 [INFO] src.processor: mail_0105.json → empty
+2026-06-02 00:24:56 [INFO] src.processor: mail_0106 → empty
+2026-06-02 00:24:56 [INFO] src.processor: mail_0107.txt → Service
+2026-06-02 00:24:56 [INFO] src.processor: mail_0108.txt → unknown
+2026-06-02 00:24:56 [INFO] src.processor: mail_0109.jpeg → empty
+2026-06-02 00:24:56 [INFO] src.processor: Отчёт сохранён: reports/reports.json
+2026-06-02 00:44:30 [INFO] Main: Запуск приложения
+2026-06-02 00:44:30 [INFO] src.classifier: Загрузка правил классификации из config/categories.json
+2026-06-02 00:44:30 [INFO] src.classifier: Задано категорий: 7
+2026-06-02 00:44:30 [WARNING] src.processor: Заблокирован файл: mail_0104.bin — бинарный файл
+2026-06-02 00:44:30 [WARNING] src.processor: Заблокирован файл: mail_0105.json — данные JSON
+2026-06-02 00:44:30 [WARNING] src.processor: Неизвестный формат: mail_0106
+2026-06-02 00:44:30 [WARNING] src.processor: Заблокирован файл: mail_0109.jpeg — изображение JPEG
+2026-06-02 00:44:30 [INFO] src.processor: Прочитано писем: 109
+2026-06-02 00:44:30 [INFO] src.classifier: Начало классификации сообщений
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0001.txt присвоена категория 'tech_support'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0002.txt присвоена категория 'client_support'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0003.txt присвоена категория 'Newsletter'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0004.txt присвоена категория 'client_support'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0005.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0006.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0007.txt присвоена категория 'tech_support'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0008.txt присвоена категория 'Documentary'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0009.txt присвоена категория 'client_support'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0010.txt присвоена категория 'client_support'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0011.txt присвоена категория 'Service'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0012.txt присвоена категория 'client_support'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0013.txt присвоена категория 'Documentary'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0014.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0015.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0016.txt присвоена категория 'tech_support'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0017.txt присвоена категория 'Documentary'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0018.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0019.txt присвоена категория 'Communication'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0020.txt присвоена категория 'tech_support'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0021.txt присвоена категория 'Service'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0022.txt присвоена категория 'Documentary'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0023.txt присвоена категория 'tech_support'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0024.txt присвоена категория 'Documentary'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0025.txt присвоена категория 'Service'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0026.txt присвоена категория 'tech_support'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0027.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0028.txt присвоена категория 'tech_support'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0029.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0030.txt присвоена категория 'Documentary'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0031.txt присвоена категория 'client_support'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0032.txt присвоена категория 'Documentary'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0033.txt присвоена категория 'Service'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0034.txt присвоена категория 'Documentary'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0035.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0036.txt присвоена категория 'Documentary'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0037.txt присвоена категория 'Documentary'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0038.txt присвоена категория 'client_support'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0039.txt присвоена категория 'Communication'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0040.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0041.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0042.txt присвоена категория 'tech_support'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0043.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0044.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0045.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0046.txt присвоена категория 'tech_support'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0047.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0048.txt присвоена категория 'Communication'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0049.txt присвоена категория 'tech_support'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0050.txt присвоена категория 'Communication'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0051.txt присвоена категория 'tech_support'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0052.txt присвоена категория 'tech_support'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0053.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0054.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0055.txt присвоена категория 'client_support'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0056.txt присвоена категория 'Communication'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0057.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0058.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0059.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0060.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0061.txt присвоена категория 'Service'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0062.txt присвоена категория 'Communication'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0063.txt присвоена категория 'Service'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0064.txt присвоена категория 'Spam'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0065.txt присвоена категория 'client_support'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0066.txt присвоена категория 'client_support'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0067.txt присвоена категория 'Communication'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0068.txt присвоена категория 'Documentary'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0069.txt присвоена категория 'Documentary'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0070.txt присвоена категория 'tech_support'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0071.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0072.txt присвоена категория 'Service'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0073.txt присвоена категория 'Service'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0074.txt присвоена категория 'tech_support'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0075.txt присвоена категория 'Communication'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0076.txt присвоена категория 'Service'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0077.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0078.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0079.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0080.txt присвоена категория 'Documentary'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0081.txt присвоена категория 'Documentary'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0082.txt присвоена категория 'client_support'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0083.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0084.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0085.txt присвоена категория 'Service'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0086.txt присвоена категория 'Communication'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0087.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0088.txt присвоена категория 'tech_support'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0089.txt присвоена категория 'Communication'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0090.txt присвоена категория 'Service'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0091.txt присвоена категория 'Communication'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0092.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0093.txt присвоена категория 'Service'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0094.txt присвоена категория 'tech_support'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0095.txt присвоена категория 'Service'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0096.txt присвоена категория 'Communication'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0097.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0098.txt присвоена категория 'Service'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0099.txt присвоена категория 'Service'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0100.txt присвоена категория 'tech_support'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0101.txt присвоена категория 'tech_support'
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0102.txt присвоена категория 'Newsletter'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0103.txt' классифицировано как пустое
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0104.bin' классифицировано как пустое
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0105.json' классифицировано как пустое
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0106' классифицировано как пустое
+2026-06-02 00:44:30 [INFO] src.classifier: Письму mail_0107.txt присвоена категория 'Service'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0108.txt' не подошло ни под одно правило. Отправлено в 'unknown'
+2026-06-02 00:44:30 [WARNING] src.classifier: Письмо 'mail_0109.jpeg' классифицировано как пустое
+2026-06-02 00:44:30 [INFO] src.processor: mail_0001.txt → Important/tech_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0002.txt → Important/client_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0003.txt → Newsletter
+2026-06-02 00:44:30 [INFO] src.processor: mail_0004.txt → Important/client_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0005.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0006.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0007.txt → Important/tech_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0008.txt → Documentary
+2026-06-02 00:44:30 [INFO] src.processor: mail_0009.txt → Important/client_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0010.txt → Important/client_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0011.txt → Service
+2026-06-02 00:44:30 [INFO] src.processor: mail_0012.txt → Important/client_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0013.txt → Documentary
+2026-06-02 00:44:30 [INFO] src.processor: mail_0014.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0015.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0016.txt → Important/tech_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0017.txt → Documentary
+2026-06-02 00:44:30 [INFO] src.processor: mail_0018.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0019.txt → Communication
+2026-06-02 00:44:30 [INFO] src.processor: mail_0020.txt → Important/tech_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0021.txt → Service
+2026-06-02 00:44:30 [INFO] src.processor: mail_0022.txt → Documentary
+2026-06-02 00:44:30 [INFO] src.processor: mail_0023.txt → Important/tech_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0024.txt → Documentary
+2026-06-02 00:44:30 [INFO] src.processor: mail_0025.txt → Service
+2026-06-02 00:44:30 [INFO] src.processor: mail_0026.txt → Important/tech_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0027.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0028.txt → Important/tech_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0029.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0030.txt → Documentary
+2026-06-02 00:44:30 [INFO] src.processor: mail_0031.txt → Important/client_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0032.txt → Documentary
+2026-06-02 00:44:30 [INFO] src.processor: mail_0033.txt → Service
+2026-06-02 00:44:30 [INFO] src.processor: mail_0034.txt → Documentary
+2026-06-02 00:44:30 [INFO] src.processor: mail_0035.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0036.txt → Documentary
+2026-06-02 00:44:30 [INFO] src.processor: mail_0037.txt → Documentary
+2026-06-02 00:44:30 [INFO] src.processor: mail_0038.txt → Important/client_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0039.txt → Communication
+2026-06-02 00:44:30 [INFO] src.processor: mail_0040.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0041.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0042.txt → Important/tech_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0043.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0044.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0045.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0046.txt → Important/tech_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0047.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0048.txt → Communication
+2026-06-02 00:44:30 [INFO] src.processor: mail_0049.txt → Important/tech_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0050.txt → Communication
+2026-06-02 00:44:30 [INFO] src.processor: mail_0051.txt → Important/tech_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0052.txt → Important/tech_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0053.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0054.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0055.txt → Important/client_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0056.txt → Communication
+2026-06-02 00:44:30 [INFO] src.processor: mail_0057.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0058.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0059.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0060.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0061.txt → Service
+2026-06-02 00:44:30 [INFO] src.processor: mail_0062.txt → Communication
+2026-06-02 00:44:30 [INFO] src.processor: mail_0063.txt → Service
+2026-06-02 00:44:30 [INFO] src.processor: mail_0064.txt → Spam
+2026-06-02 00:44:30 [INFO] src.processor: mail_0065.txt → Important/client_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0066.txt → Important/client_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0067.txt → Communication
+2026-06-02 00:44:30 [INFO] src.processor: mail_0068.txt → Documentary
+2026-06-02 00:44:30 [INFO] src.processor: mail_0069.txt → Documentary
+2026-06-02 00:44:30 [INFO] src.processor: mail_0070.txt → Important/tech_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0071.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0072.txt → Service
+2026-06-02 00:44:30 [INFO] src.processor: mail_0073.txt → Service
+2026-06-02 00:44:30 [INFO] src.processor: mail_0074.txt → Important/tech_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0075.txt → Communication
+2026-06-02 00:44:30 [INFO] src.processor: mail_0076.txt → Service
+2026-06-02 00:44:30 [INFO] src.processor: mail_0077.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0078.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0079.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0080.txt → Documentary
+2026-06-02 00:44:30 [INFO] src.processor: mail_0081.txt → Documentary
+2026-06-02 00:44:30 [INFO] src.processor: mail_0082.txt → Important/client_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0083.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0084.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0085.txt → Service
+2026-06-02 00:44:30 [INFO] src.processor: mail_0086.txt → Communication
+2026-06-02 00:44:30 [INFO] src.processor: mail_0087.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0088.txt → Important/tech_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0089.txt → Communication
+2026-06-02 00:44:30 [INFO] src.processor: mail_0090.txt → Service
+2026-06-02 00:44:30 [INFO] src.processor: mail_0091.txt → Communication
+2026-06-02 00:44:30 [INFO] src.processor: mail_0092.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0093.txt → Service
+2026-06-02 00:44:30 [INFO] src.processor: mail_0094.txt → Important/tech_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0095.txt → Service
+2026-06-02 00:44:30 [INFO] src.processor: mail_0096.txt → Communication
+2026-06-02 00:44:30 [INFO] src.processor: mail_0097.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0098.txt → Service
+2026-06-02 00:44:30 [INFO] src.processor: mail_0099.txt → Service
+2026-06-02 00:44:30 [INFO] src.processor: mail_0100.txt → Important/tech_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0101.txt → Important/tech_support
+2026-06-02 00:44:30 [INFO] src.processor: mail_0102.txt → Newsletter
+2026-06-02 00:44:30 [INFO] src.processor: mail_0103.txt → empty
+2026-06-02 00:44:30 [INFO] src.processor: mail_0104.bin → empty
+2026-06-02 00:44:30 [INFO] src.processor: mail_0105.json → empty
+2026-06-02 00:44:30 [INFO] src.processor: mail_0106 → empty
+2026-06-02 00:44:30 [INFO] src.processor: mail_0107.txt → Service
+2026-06-02 00:44:30 [INFO] src.processor: mail_0108.txt → unknown
+2026-06-02 00:44:30 [INFO] src.processor: mail_0109.jpeg → empty
+2026-06-02 00:44:30 [INFO] src.processor: Отчёт сохранён: reports/reports.json
+2026-06-02 00:44:30 [INFO] src.visualizer: Дашборд успешно сохранен: reports/dashboard.png

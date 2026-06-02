@@ -1,0 +1,1157 @@
+{
+  "total": 109,
+  "distribution": {
+    "tech_support": 18,
+    "client_support": 11,
+    "Newsletter": 2,
+    "unknown": 30,
+    "Documentary": 14,
+    "Service": 16,
+    "Communication": 12,
+    "Spam": 1,
+    "empty": 5
+  },
+  "items": [
+    {
+      "file": "mail_0001.txt",
+      "category": "tech_support",
+      "folder": "Important/tech_support",
+      "score": 2,
+      "matched_terms": [
+        "зависает"
+      ],
+      "reason": "Категория выбрана по совпадениям: зависает",
+      "error": null
+    },
+    {
+      "file": "mail_0002.txt",
+      "category": "client_support",
+      "folder": "Important/client_support",
+      "score": 4,
+      "matched_terms": [
+        "срочно",
+        "клиент"
+      ],
+      "reason": "Категория выбрана по совпадениям: срочно, клиент",
+      "error": null
+    },
+    {
+      "file": "mail_0003.txt",
+      "category": "Newsletter",
+      "folder": "Newsletter",
+      "score": 2,
+      "matched_terms": [
+        "дайджест"
+      ],
+      "reason": "Категория выбрана по совпадениям: дайджест",
+      "error": null
+    },
+    {
+      "file": "mail_0004.txt",
+      "category": "client_support",
+      "folder": "Important/client_support",
+      "score": 2,
+      "matched_terms": [
+        "срочно"
+      ],
+      "reason": "Категория выбрана по совпадениям: срочно",
+      "error": null
+    },
+    {
+      "file": "mail_0005.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0006.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0007.txt",
+      "category": "tech_support",
+      "folder": "Important/tech_support",
+      "score": 2,
+      "matched_terms": [
+        "не могу войти"
+      ],
+      "reason": "Категория выбрана по совпадениям: не могу войти",
+      "error": null
+    },
+    {
+      "file": "mail_0008.txt",
+      "category": "Documentary",
+      "folder": "Documentary",
+      "score": 2,
+      "matched_terms": [
+        "отчет"
+      ],
+      "reason": "Категория выбрана по совпадениям: отчет",
+      "error": null
+    },
+    {
+      "file": "mail_0009.txt",
+      "category": "client_support",
+      "folder": "Important/client_support",
+      "score": 2,
+      "matched_terms": [
+        "срочно"
+      ],
+      "reason": "Категория выбрана по совпадениям: срочно",
+      "error": null
+    },
+    {
+      "file": "mail_0010.txt",
+      "category": "client_support",
+      "folder": "Important/client_support",
+      "score": 2,
+      "matched_terms": [
+        "клиент"
+      ],
+      "reason": "Категория выбрана по совпадениям: клиент",
+      "error": null
+    },
+    {
+      "file": "mail_0011.txt",
+      "category": "Service",
+      "folder": "Service",
+      "score": 4,
+      "matched_terms": [
+        "заявка",
+        "запрос"
+      ],
+      "reason": "Категория выбрана по совпадениям: заявка, запрос",
+      "error": null
+    },
+    {
+      "file": "mail_0012.txt",
+      "category": "client_support",
+      "folder": "Important/client_support",
+      "score": 2,
+      "matched_terms": [
+        "срочно"
+      ],
+      "reason": "Категория выбрана по совпадениям: срочно",
+      "error": null
+    },
+    {
+      "file": "mail_0013.txt",
+      "category": "Documentary",
+      "folder": "Documentary",
+      "score": 2,
+      "matched_terms": [
+        "акт"
+      ],
+      "reason": "Категория выбрана по совпадениям: акт",
+      "error": null
+    },
+    {
+      "file": "mail_0014.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0015.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0016.txt",
+      "category": "tech_support",
+      "folder": "Important/tech_support",
+      "score": 2,
+      "matched_terms": [
+        "ошибка"
+      ],
+      "reason": "Категория выбрана по совпадениям: ошибка",
+      "error": null
+    },
+    {
+      "file": "mail_0017.txt",
+      "category": "Documentary",
+      "folder": "Documentary",
+      "score": 4,
+      "matched_terms": [
+        "акт",
+        "счет"
+      ],
+      "reason": "Категория выбрана по совпадениям: акт, счет",
+      "error": null
+    },
+    {
+      "file": "mail_0018.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0019.txt",
+      "category": "Communication",
+      "folder": "Communication",
+      "score": 2,
+      "matched_terms": [
+        "добрый день"
+      ],
+      "reason": "Категория выбрана по совпадениям: добрый день",
+      "error": null
+    },
+    {
+      "file": "mail_0020.txt",
+      "category": "tech_support",
+      "folder": "Important/tech_support",
+      "score": 2,
+      "matched_terms": [
+        "ошибка"
+      ],
+      "reason": "Категория выбрана по совпадениям: ошибка",
+      "error": null
+    },
+    {
+      "file": "mail_0021.txt",
+      "category": "Service",
+      "folder": "Service",
+      "score": 2,
+      "matched_terms": [
+        "запрос"
+      ],
+      "reason": "Категория выбрана по совпадениям: запрос",
+      "error": null
+    },
+    {
+      "file": "mail_0022.txt",
+      "category": "Documentary",
+      "folder": "Documentary",
+      "score": 2,
+      "matched_terms": [
+        "договор"
+      ],
+      "reason": "Категория выбрана по совпадениям: договор",
+      "error": null
+    },
+    {
+      "file": "mail_0023.txt",
+      "category": "tech_support",
+      "folder": "Important/tech_support",
+      "score": 4,
+      "matched_terms": [
+        "ошибка",
+        "не могу войти"
+      ],
+      "reason": "Категория выбрана по совпадениям: ошибка, не могу войти",
+      "error": null
+    },
+    {
+      "file": "mail_0024.txt",
+      "category": "Documentary",
+      "folder": "Documentary",
+      "score": 2,
+      "matched_terms": [
+        "акт"
+      ],
+      "reason": "Категория выбрана по совпадениям: акт",
+      "error": null
+    },
+    {
+      "file": "mail_0025.txt",
+      "category": "Service",
+      "folder": "Service",
+      "score": 2,
+      "matched_terms": [
+        "заявка"
+      ],
+      "reason": "Категория выбрана по совпадениям: заявка",
+      "error": null
+    },
+    {
+      "file": "mail_0026.txt",
+      "category": "tech_support",
+      "folder": "Important/tech_support",
+      "score": 2,
+      "matched_terms": [
+        "не работает"
+      ],
+      "reason": "Категория выбрана по совпадениям: не работает",
+      "error": null
+    },
+    {
+      "file": "mail_0027.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0028.txt",
+      "category": "tech_support",
+      "folder": "Important/tech_support",
+      "score": 4,
+      "matched_terms": [
+        "ошибка",
+        "зависает"
+      ],
+      "reason": "Категория выбрана по совпадениям: ошибка, зависает",
+      "error": null
+    },
+    {
+      "file": "mail_0029.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0030.txt",
+      "category": "Documentary",
+      "folder": "Documentary",
+      "score": 2,
+      "matched_terms": [
+        "акт"
+      ],
+      "reason": "Категория выбрана по совпадениям: акт",
+      "error": null
+    },
+    {
+      "file": "mail_0031.txt",
+      "category": "client_support",
+      "folder": "Important/client_support",
+      "score": 2,
+      "matched_terms": [
+        "клиент"
+      ],
+      "reason": "Категория выбрана по совпадениям: клиент",
+      "error": null
+    },
+    {
+      "file": "mail_0032.txt",
+      "category": "Documentary",
+      "folder": "Documentary",
+      "score": 2,
+      "matched_terms": [
+        "счет"
+      ],
+      "reason": "Категория выбрана по совпадениям: счет",
+      "error": null
+    },
+    {
+      "file": "mail_0033.txt",
+      "category": "Service",
+      "folder": "Service",
+      "score": 2,
+      "matched_terms": [
+        "запрос"
+      ],
+      "reason": "Категория выбрана по совпадениям: запрос",
+      "error": null
+    },
+    {
+      "file": "mail_0034.txt",
+      "category": "Documentary",
+      "folder": "Documentary",
+      "score": 4,
+      "matched_terms": [
+        "акт",
+        "счет"
+      ],
+      "reason": "Категория выбрана по совпадениям: акт, счет",
+      "error": null
+    },
+    {
+      "file": "mail_0035.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0036.txt",
+      "category": "Documentary",
+      "folder": "Documentary",
+      "score": 2,
+      "matched_terms": [
+        "отчет"
+      ],
+      "reason": "Категория выбрана по совпадениям: отчет",
+      "error": null
+    },
+    {
+      "file": "mail_0037.txt",
+      "category": "Documentary",
+      "folder": "Documentary",
+      "score": 2,
+      "matched_terms": [
+        "счет"
+      ],
+      "reason": "Категория выбрана по совпадениям: счет",
+      "error": null
+    },
+    {
+      "file": "mail_0038.txt",
+      "category": "client_support",
+      "folder": "Important/client_support",
+      "score": 2,
+      "matched_terms": [
+        "клиент"
+      ],
+      "reason": "Категория выбрана по совпадениям: клиент",
+      "error": null
+    },
+    {
+      "file": "mail_0039.txt",
+      "category": "Communication",
+      "folder": "Communication",
+      "score": 2,
+      "matched_terms": [
+        "добрый день"
+      ],
+      "reason": "Категория выбрана по совпадениям: добрый день",
+      "error": null
+    },
+    {
+      "file": "mail_0040.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0041.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0042.txt",
+      "category": "tech_support",
+      "folder": "Important/tech_support",
+      "score": 2,
+      "matched_terms": [
+        "сбой"
+      ],
+      "reason": "Категория выбрана по совпадениям: сбой",
+      "error": null
+    },
+    {
+      "file": "mail_0043.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0044.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0045.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0046.txt",
+      "category": "tech_support",
+      "folder": "Important/tech_support",
+      "score": 2,
+      "matched_terms": [
+        "ошибка"
+      ],
+      "reason": "Категория выбрана по совпадениям: ошибка",
+      "error": null
+    },
+    {
+      "file": "mail_0047.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0048.txt",
+      "category": "Communication",
+      "folder": "Communication",
+      "score": 2,
+      "matched_terms": [
+        "добрый день"
+      ],
+      "reason": "Категория выбрана по совпадениям: добрый день",
+      "error": null
+    },
+    {
+      "file": "mail_0049.txt",
+      "category": "tech_support",
+      "folder": "Important/tech_support",
+      "score": 4,
+      "matched_terms": [
+        "ошибка",
+        "не работает"
+      ],
+      "reason": "Категория выбрана по совпадениям: ошибка, не работает",
+      "error": null
+    },
+    {
+      "file": "mail_0050.txt",
+      "category": "Communication",
+      "folder": "Communication",
+      "score": 2,
+      "matched_terms": [
+        "добрый день"
+      ],
+      "reason": "Категория выбрана по совпадениям: добрый день",
+      "error": null
+    },
+    {
+      "file": "mail_0051.txt",
+      "category": "tech_support",
+      "folder": "Important/tech_support",
+      "score": 2,
+      "matched_terms": [
+        "ошибка"
+      ],
+      "reason": "Категория выбрана по совпадениям: ошибка",
+      "error": null
+    },
+    {
+      "file": "mail_0052.txt",
+      "category": "tech_support",
+      "folder": "Important/tech_support",
+      "score": 2,
+      "matched_terms": [
+        "зависает"
+      ],
+      "reason": "Категория выбрана по совпадениям: зависает",
+      "error": null
+    },
+    {
+      "file": "mail_0053.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0054.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0055.txt",
+      "category": "client_support",
+      "folder": "Important/client_support",
+      "score": 2,
+      "matched_terms": [
+        "срочно"
+      ],
+      "reason": "Категория выбрана по совпадениям: срочно",
+      "error": null
+    },
+    {
+      "file": "mail_0056.txt",
+      "category": "Communication",
+      "folder": "Communication",
+      "score": 2,
+      "matched_terms": [
+        "добрый день"
+      ],
+      "reason": "Категория выбрана по совпадениям: добрый день",
+      "error": null
+    },
+    {
+      "file": "mail_0057.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0058.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0059.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0060.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0061.txt",
+      "category": "Service",
+      "folder": "Service",
+      "score": 2,
+      "matched_terms": [
+        "запрос"
+      ],
+      "reason": "Категория выбрана по совпадениям: запрос",
+      "error": null
+    },
+    {
+      "file": "mail_0062.txt",
+      "category": "Communication",
+      "folder": "Communication",
+      "score": 4,
+      "matched_terms": [
+        "коллеги",
+        "добрый день"
+      ],
+      "reason": "Категория выбрана по совпадениям: коллеги, добрый день",
+      "error": null
+    },
+    {
+      "file": "mail_0063.txt",
+      "category": "Service",
+      "folder": "Service",
+      "score": 2,
+      "matched_terms": [
+        "запрос"
+      ],
+      "reason": "Категория выбрана по совпадениям: запрос",
+      "error": null
+    },
+    {
+      "file": "mail_0064.txt",
+      "category": "Spam",
+      "folder": "Spam",
+      "score": 6,
+      "matched_terms": [
+        "скидка",
+        "акция",
+        "только сегодня"
+      ],
+      "reason": "Категория выбрана по совпадениям: скидка, акция, только сегодня",
+      "error": null
+    },
+    {
+      "file": "mail_0065.txt",
+      "category": "client_support",
+      "folder": "Important/client_support",
+      "score": 2,
+      "matched_terms": [
+        "жалоба"
+      ],
+      "reason": "Категория выбрана по совпадениям: жалоба",
+      "error": null
+    },
+    {
+      "file": "mail_0066.txt",
+      "category": "client_support",
+      "folder": "Important/client_support",
+      "score": 2,
+      "matched_terms": [
+        "клиент"
+      ],
+      "reason": "Категория выбрана по совпадениям: клиент",
+      "error": null
+    },
+    {
+      "file": "mail_0067.txt",
+      "category": "Communication",
+      "folder": "Communication",
+      "score": 2,
+      "matched_terms": [
+        "добрый день"
+      ],
+      "reason": "Категория выбрана по совпадениям: добрый день",
+      "error": null
+    },
+    {
+      "file": "mail_0068.txt",
+      "category": "Documentary",
+      "folder": "Documentary",
+      "score": 2,
+      "matched_terms": [
+        "акт"
+      ],
+      "reason": "Категория выбрана по совпадениям: акт",
+      "error": null
+    },
+    {
+      "file": "mail_0069.txt",
+      "category": "Documentary",
+      "folder": "Documentary",
+      "score": 2,
+      "matched_terms": [
+        "отчет"
+      ],
+      "reason": "Категория выбрана по совпадениям: отчет",
+      "error": null
+    },
+    {
+      "file": "mail_0070.txt",
+      "category": "tech_support",
+      "folder": "Important/tech_support",
+      "score": 4,
+      "matched_terms": [
+        "ошибка",
+        "зависает"
+      ],
+      "reason": "Категория выбрана по совпадениям: ошибка, зависает",
+      "error": null
+    },
+    {
+      "file": "mail_0071.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0072.txt",
+      "category": "Service",
+      "folder": "Service",
+      "score": 2,
+      "matched_terms": [
+        "запрос"
+      ],
+      "reason": "Категория выбрана по совпадениям: запрос",
+      "error": null
+    },
+    {
+      "file": "mail_0073.txt",
+      "category": "Service",
+      "folder": "Service",
+      "score": 2,
+      "matched_terms": [
+        "запрос"
+      ],
+      "reason": "Категория выбрана по совпадениям: запрос",
+      "error": null
+    },
+    {
+      "file": "mail_0074.txt",
+      "category": "tech_support",
+      "folder": "Important/tech_support",
+      "score": 2,
+      "matched_terms": [
+        "не работает"
+      ],
+      "reason": "Категория выбрана по совпадениям: не работает",
+      "error": null
+    },
+    {
+      "file": "mail_0075.txt",
+      "category": "Communication",
+      "folder": "Communication",
+      "score": 2,
+      "matched_terms": [
+        "добрый день"
+      ],
+      "reason": "Категория выбрана по совпадениям: добрый день",
+      "error": null
+    },
+    {
+      "file": "mail_0076.txt",
+      "category": "Service",
+      "folder": "Service",
+      "score": 2,
+      "matched_terms": [
+        "запрос"
+      ],
+      "reason": "Категория выбрана по совпадениям: запрос",
+      "error": null
+    },
+    {
+      "file": "mail_0077.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0078.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0079.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0080.txt",
+      "category": "Documentary",
+      "folder": "Documentary",
+      "score": 2,
+      "matched_terms": [
+        "отчет"
+      ],
+      "reason": "Категория выбрана по совпадениям: отчет",
+      "error": null
+    },
+    {
+      "file": "mail_0081.txt",
+      "category": "Documentary",
+      "folder": "Documentary",
+      "score": 2,
+      "matched_terms": [
+        "акт"
+      ],
+      "reason": "Категория выбрана по совпадениям: акт",
+      "error": null
+    },
+    {
+      "file": "mail_0082.txt",
+      "category": "client_support",
+      "folder": "Important/client_support",
+      "score": 2,
+      "matched_terms": [
+        "клиент"
+      ],
+      "reason": "Категория выбрана по совпадениям: клиент",
+      "error": null
+    },
+    {
+      "file": "mail_0083.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0084.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0085.txt",
+      "category": "Service",
+      "folder": "Service",
+      "score": 2,
+      "matched_terms": [
+        "запрос"
+      ],
+      "reason": "Категория выбрана по совпадениям: запрос",
+      "error": null
+    },
+    {
+      "file": "mail_0086.txt",
+      "category": "Communication",
+      "folder": "Communication",
+      "score": 4,
+      "matched_terms": [
+        "коллеги",
+        "добрый день"
+      ],
+      "reason": "Категория выбрана по совпадениям: коллеги, добрый день",
+      "error": null
+    },
+    {
+      "file": "mail_0087.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0088.txt",
+      "category": "tech_support",
+      "folder": "Important/tech_support",
+      "score": 2,
+      "matched_terms": [
+        "не могу войти"
+      ],
+      "reason": "Категория выбрана по совпадениям: не могу войти",
+      "error": null
+    },
+    {
+      "file": "mail_0089.txt",
+      "category": "Communication",
+      "folder": "Communication",
+      "score": 2,
+      "matched_terms": [
+        "добрый день"
+      ],
+      "reason": "Категория выбрана по совпадениям: добрый день",
+      "error": null
+    },
+    {
+      "file": "mail_0090.txt",
+      "category": "Service",
+      "folder": "Service",
+      "score": 2,
+      "matched_terms": [
+        "запрос"
+      ],
+      "reason": "Категория выбрана по совпадениям: запрос",
+      "error": null
+    },
+    {
+      "file": "mail_0091.txt",
+      "category": "Communication",
+      "folder": "Communication",
+      "score": 2,
+      "matched_terms": [
+        "добрый день"
+      ],
+      "reason": "Категория выбрана по совпадениям: добрый день",
+      "error": null
+    },
+    {
+      "file": "mail_0092.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0093.txt",
+      "category": "Service",
+      "folder": "Service",
+      "score": 2,
+      "matched_terms": [
+        "запрос"
+      ],
+      "reason": "Категория выбрана по совпадениям: запрос",
+      "error": null
+    },
+    {
+      "file": "mail_0094.txt",
+      "category": "tech_support",
+      "folder": "Important/tech_support",
+      "score": 2,
+      "matched_terms": [
+        "ошибка"
+      ],
+      "reason": "Категория выбрана по совпадениям: ошибка",
+      "error": null
+    },
+    {
+      "file": "mail_0095.txt",
+      "category": "Service",
+      "folder": "Service",
+      "score": 2,
+      "matched_terms": [
+        "запрос"
+      ],
+      "reason": "Категория выбрана по совпадениям: запрос",
+      "error": null
+    },
+    {
+      "file": "mail_0096.txt",
+      "category": "Communication",
+      "folder": "Communication",
+      "score": 2,
+      "matched_terms": [
+        "добрый день"
+      ],
+      "reason": "Категория выбрана по совпадениям: добрый день",
+      "error": null
+    },
+    {
+      "file": "mail_0097.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0098.txt",
+      "category": "Service",
+      "folder": "Service",
+      "score": 2,
+      "matched_terms": [
+        "запрос"
+      ],
+      "reason": "Категория выбрана по совпадениям: запрос",
+      "error": null
+    },
+    {
+      "file": "mail_0099.txt",
+      "category": "Service",
+      "folder": "Service",
+      "score": 2,
+      "matched_terms": [
+        "запрос"
+      ],
+      "reason": "Категория выбрана по совпадениям: запрос",
+      "error": null
+    },
+    {
+      "file": "mail_0100.txt",
+      "category": "tech_support",
+      "folder": "Important/tech_support",
+      "score": 2,
+      "matched_terms": [
+        "ошибка"
+      ],
+      "reason": "Категория выбрана по совпадениям: ошибка",
+      "error": null
+    },
+    {
+      "file": "mail_0101.txt",
+      "category": "tech_support",
+      "folder": "Important/tech_support",
+      "score": 2,
+      "matched_terms": [
+        "не работает"
+      ],
+      "reason": "Категория выбрана по совпадениям: не работает",
+      "error": null
+    },
+    {
+      "file": "mail_0102.txt",
+      "category": "Newsletter",
+      "folder": "Newsletter",
+      "score": 2,
+      "matched_terms": [
+        "дайджест"
+      ],
+      "reason": "Категория выбрана по совпадениям: дайджест",
+      "error": null
+    },
+    {
+      "file": "mail_0103.txt",
+      "category": "empty",
+      "folder": "empty",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Письмо пустое или не содержит текста.",
+      "error": null
+    },
+    {
+      "file": "mail_0104.bin",
+      "category": "empty",
+      "folder": "empty",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Письмо пустое или не содержит текста.",
+      "error": null
+    },
+    {
+      "file": "mail_0105.json",
+      "category": "empty",
+      "folder": "empty",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Письмо пустое или не содержит текста.",
+      "error": null
+    },
+    {
+      "file": "mail_0106",
+      "category": "empty",
+      "folder": "empty",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Письмо пустое или не содержит текста.",
+      "error": null
+    },
+    {
+      "file": "mail_0107.txt",
+      "category": "Service",
+      "folder": "Service",
+      "score": 2,
+      "matched_terms": [
+        "запрос"
+      ],
+      "reason": "Категория выбрана по совпадениям: запрос",
+      "error": null
+    },
+    {
+      "file": "mail_0108.txt",
+      "category": "unknown",
+      "folder": "unknown",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Категория не найдена.",
+      "error": null
+    },
+    {
+      "file": "mail_0109.jpeg",
+      "category": "empty",
+      "folder": "empty",
+      "score": 0,
+      "matched_terms": [],
+      "reason": "Письмо пустое или не содержит текста.",
+      "error": null
+    }
+  ]
+}
